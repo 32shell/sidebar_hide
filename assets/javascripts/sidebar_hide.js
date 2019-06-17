@@ -35,5 +35,7 @@ function hideSideBar()
 }
 
 $(function() {
-    $('#context-menu').appendTo('#main');
+    setTimeout(function() {
+      $('#context-menu').appendTo('#wrapper');
+    }, 100);
 });
